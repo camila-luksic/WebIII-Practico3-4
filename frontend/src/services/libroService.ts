@@ -1,5 +1,6 @@
-import type{ BestsellerLibro, Libro } from "../models/libro"
+import type{ BestsellerLibro} from "../models/libroApi"
 import type { LibroFromAPI } from "../models/libroApi"
+import type { Libro } from "../models/libro"
 import apiClient from "./interceptors"
 
 export class libroService {
